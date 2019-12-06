@@ -1,0 +1,86 @@
+= Infinity2019
+Contains project Ideas and code related to an event named "Infinity" held at Pramati
+:toc:
+
+== Ideas
+
+=== TextLove
+
+==== Description
+
+As humans, we connect with visuals much better when compared to text. 
+
+But the technology that we have enables every common individual to write text without any complex skill requirement. But to produce visual it requires creativity.
+
+So, today we witness much of the information that needs to be communicated is in text form rather than a visual.
+
+This had lead to the below complex process on humans
+
+* Read the text
+* Understand and keep the context
+* Imaginarily generate the viusal in brains
+* Then extract the information required
+
+In the above process, at any point we miss the context, we will have to repeat the steps from the beginning again.
+
+With `TextLove` we are going to remove this complex processing burden. Given the text content, `TextLove` is automatically going to generate the nearly right visual which will be easy to consume and communicate.
+
+==== Applications
+
+* MoneyLaundring case analysis
+* Movie script to visual animation
+
+==== By Product tools
+
+* Powerful text summary
+* Much better Named Entity Recognizer which works well across domains
+* Apt sentiment analysis
+* Ambience extractor
+
+
+==== APIs that we can leverage
+
+*Content*
+
+https://www.studentnewsdaily.com/daily-news-article/democrat-law-professor-it-is-wrong-to-impeach-trump-just-because-youre-all-mad/
+
+```
+During the House impeachment hearings on Wednesday, four legal experts were called to testify as to whether President Donald Trump’s refusal to comply with congressional subpoenas in the impeachment inquiry is grounds for an obstruction case.
+
+The Democrats called three of the witnesses, while the Republicans were allowed to call one witness.  All four of the experts are Democrats who do not support President Trump.
+
+Their testimony came one day after House Democrats on the intelligence committee released a report accusing Trump of congressional obstruction based on his instructions for White House staff not to comply with subpoenas.
+
+The witness for the Republicans, George Washington University Law Professor Jonathan Turley, said Democrats’ attempts to go after Trump for fighting the subpoenas in court was a congressional abuse of power.
+```
+
+*Rosette API*
+
+https://try.rosette.com/analysis/text/e687839c7826e5d024a4b3888d65deac
+
+
+*Stanford Core NLP API*
+
+https://corenlp.run/
+
+
+*Google NLP API*
+
+https://cloud.google.com/natural-language/?utm_source=google&utm_medium=cpc&utm_campaign=japac-IN-all-en-dr-bkws-all-all-trial-b-dr-1003987&utm_content=text-ad-none-none-DEV_c-CRE_252375307849-ADGP_Hybrid+%7C+AW+SEM+%7C+BKWS+~+T1+%7C+BMM+%7C+ML+%7C+M:1+%7C+IN+%7C+en+%7C+Language+%7C+General-KWID_43700024598820904-kwd-350028915733&userloc_9061895&utm_term=KW_%2Bgoogle%20%2Bnlp&ds_rl=1264446&gclid=EAIaIQobChMIps-_2qSg5gIVgnZgCh12YAuNEAAYASAAEgJYTPD_BwE
+
+*Facebook NLP API*
+
+https://developers.facebook.com/docs/messenger-platform/built-in-nlp/
+
+*IBM NLP API*
+
+https://natural-language-understanding-demo.ng.bluemix.net/?cm_mc_uid=21861582496615756101855&cm_mc_sid_50200000=38071971575610185748&cm_mc_sid_52640000=83938131575610185804
+
+*Microsoft NLP API*
+
+https://docs.microsoft.com/en-in/azure/cognitive-services/text-analytics/
+
+
+=== Email Power Analysis
+
+==== Description
