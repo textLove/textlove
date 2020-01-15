@@ -1,5 +1,11 @@
+/*
+ * @Author: sheikirfanbasha@gmail.com 
+ * @Date: 2020-01-16 04:50:31 
+ * @Last Modified by: irfan.sheik@imaginea.com
+ * @Last Modified time: 2020-01-16 05:14:29
+ */
 //Server
-exports.PORT = 443;
+exports.PORT = process.env.PORT || 443;
 
 // server url
 exports.SERVER = 'https://arcane-headland-47688.herokuapp.com/';
@@ -12,3 +18,6 @@ exports.mongo_spotcues_db = 'spintext';
 exports.ACCESS_CONTROL_ALLOWED_ORIGINS = [
     'https://arcane-headland-47688.herokuapp.com/'
 ];
+
+// Mail related
+exports.SENDGRID_API_KEY = process.env.SENDGRID_API_KEY;

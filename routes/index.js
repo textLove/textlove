@@ -1,3 +1,9 @@
+/*
+ * @Author: sheikirfanbasha@gmail.com 
+ * @Date: 2020-01-16 04:51:03 
+ * @Last Modified by: irfan.sheik@imaginea.com
+ * @Last Modified time: 2020-01-16 05:07:58
+ */
 var express = require('express');
 module.exports = function(app) {
     app.get('/', function(req, res) {
@@ -7,6 +13,7 @@ module.exports = function(app) {
         res.send("Pong")
     });
     require('./core/hashtag')(getRouterInstance(app));
+    require('./core/mailtest')(getRouterInstance(app));
 };
 
 function getRouterInstance(app) {
