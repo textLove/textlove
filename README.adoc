@@ -2,6 +2,13 @@
 Contains project Ideas and code related to an event named "Infinity" held at Pramati
 :toc:
 
+
+[INFO]
+====
+_The strengths of human-machine collaboration can be more
+effective than either force acting on its own._
+====
+
 == Getting Started
 
 . git clone https://github.com/textLove/textlove.git
