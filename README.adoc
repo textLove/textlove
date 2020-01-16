@@ -102,7 +102,7 @@ https://docs.microsoft.com/en-in/azure/cognitive-services/text-analytics/
 
 ==== What are some indicators of bias on a web page?
 
-The language of the document is often extreme; statements have all or nothing connotations _(an idea or feeling which a word invokes for a person in addition to its literal or primary meaning)_.
-The argument appeals more to the emotions than to logic.
-Things are worded with the intent to oversimplify or over generalize.
-The author wishes to present a limited view of the topic.
+* The language of the document is often extreme; statements have all or nothing connotations _(an idea or feeling which a word invokes for a person in addition to its literal or primary meaning)_.
+* The argument appeals more to the emotions than to logic.
+* Things are worded with the intent to oversimplify or over generalize.
+* The author wishes to present a limited view of the topic.
