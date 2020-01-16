@@ -6,7 +6,7 @@ Contains project Ideas and code related to an event named "Infinity" held at Pra
 [INFO]
 ====
 _The strengths of human-machine collaboration can be more
-effective than either force acting on its own._
+effective than either force acting on its own. **By Sam Gordy**_
 ====
 
 == Getting Started
