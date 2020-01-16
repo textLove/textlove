@@ -2,7 +2,7 @@
  * @Author: sheikirfanbasha@gmail.com 
  * @Date: 2020-01-16 04:51:03 
  * @Last Modified by: irfan.sheik@imaginea.com
- * @Last Modified time: 2020-01-16 05:07:58
+ * @Last Modified time: 2020-01-16 06:31:38
  */
 var express = require('express');
 module.exports = function(app) {
@@ -14,6 +14,7 @@ module.exports = function(app) {
     });
     require('./core/hashtag')(getRouterInstance(app));
     require('./core/mailtest')(getRouterInstance(app));
+    require('./core/text_analysis')(getRouterInstance(app));
 };
 
 function getRouterInstance(app) {

@@ -2,7 +2,7 @@
  * @Author: sheikirfanbasha@gmail.com 
  * @Date: 2020-01-16 04:50:31 
  * @Last Modified by: irfan.sheik@imaginea.com
- * @Last Modified time: 2020-01-16 05:14:29
+ * @Last Modified time: 2020-01-16 06:11:42
  */
 //Server
 exports.PORT = process.env.PORT || 443;
@@ -21,3 +21,10 @@ exports.ACCESS_CONTROL_ALLOWED_ORIGINS = [
 
 // Mail related
 exports.SENDGRID_API_KEY = process.env.SENDGRID_API_KEY;
+
+// NLU/NLP related
+exports.IBM_API_KEY = process.env.IBM_API_KEY;
+
+exports.NLU_IBM = {
+    version: "2019-07-12"
+}
