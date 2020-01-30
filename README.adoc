@@ -2,6 +2,13 @@
 Contains project Ideas and code related to an event named "Infinity" held at Pramati
 :toc:
 
+
+[INFO]
+====
+_The strengths of human-machine collaboration can be more
+effective than either force acting on its own. **By Sam Gordy**_
+====
+
 == Getting Started
 
 . git clone https://github.com/textLove/textlove.git
@@ -90,3 +97,19 @@ https://docs.microsoft.com/en-in/azure/cognitive-services/text-analytics/
 === Email Power Analysis
 
 ==== Description
+
+=== Bias in the webPage
+
+==== Description
+
+* Bias is when a statement reflects a partiality, preference, or prejudice for or against a person, object, or idea.
+* Much of what you read and hear expresses a bias. 
+* Bias is when a writer or speaker uses a selection of facts, choice of words, and the quality and tone of description, to convey a particular feeling or attitude. 
+* Its purpose is to convey a certain attitude or point of view toward the subject
+
+==== What are some indicators of bias on a web page?
+
+* The language of the document is often extreme; statements have all or nothing connotations _(an idea or feeling which a word invokes for a person in addition to its literal or primary meaning)_.
+* The argument appeals more to the emotions than to logic.
+* Things are worded with the intent to oversimplify or over generalize.
+* The author wishes to present a limited view of the topic.
