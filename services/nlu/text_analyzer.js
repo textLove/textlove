@@ -14,7 +14,8 @@ const ibmNLU = new NaturalLanguageUnderstandingV1({
 
 /*
  Docs: https://cloud.ibm.com/apidocs/natural-language-understanding/natural-language-understanding?code=node#analyze-text
-*/
+ About Secuirty of Data: https://cloud.ibm.com/apidocs/natural-language-understanding/natural-language-understanding#data-collection
+ */
 async function analyzeWithIBM(text, callback){
     var params = {
         text: text,
@@ -41,4 +42,27 @@ async function analyzeWithIBM(text, callback){
     }
 }
 
+async function kEIBM(text, keywords_limit, callback){
+    var params = {
+        text: text,
+        features: {
+          concepts: {},
+          keywords: {
+              limit: keywords_limit
+          }
+        }
+    }
+    try{
+        var output = await ibmNLU.analyze(params);
+        if(output.status == 200){
+            callback("", output.result);
+        }else{
+            callback(output.result, "");
+        }
+    }catch(err){
+        callback(err, "")
+    }
+}
+
 exports.analyzeWithIBM = analyzeWithIBM;
+exports.kEIBM = kEIBM;
